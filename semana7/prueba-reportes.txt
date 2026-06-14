@@ -1,0 +1,9 @@
+Se realizó una petición POST a la ruta /reportes enviando información sobre una incidencia comunitaria. El servidor recibió correctamente los datos y registró un nuevo reporte con identificador único. Posteriormente, al consultar la ruta GET /reportes, el sistema mostró la lista de reportes almacenados en memoria. Esto demuestra el funcionamiento de los métodos HTTP POST para registrar información y GET para consultarla.
+
+Ejemplo de reporte registrado:
+
+{
+"id": 1,
+"tipo": "Infraestructura",
+"descripcion": "Daño en alumbrado público"
+}
